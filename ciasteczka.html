@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   #okno {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background-color: antiquewhite;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+#akceotuj{
+    margin: 5px;
+}
+    </style>
+    
+</head>
+<body>
+   <div id="okno">
+    Czy akceptujesz pliki cookies?
+    <button id="akceptuj" onclick="akceptuj()"> akceptuje </button>
+
+   </div>
+
+
+        <script>
+           function akceptuj() {
+            document.getElementById("okno").style.display = "none"
+           }
+           
+
+        </script>
+</body>
+</html>
